@@ -10,7 +10,7 @@ import android.widget.Toast;
 public class login extends AppCompatActivity {
     private static EditText user;
     private static EditText pass;
-    private static Button b1;
+    private static Button b;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -22,8 +22,8 @@ public class login extends AppCompatActivity {
         user=(EditText)findViewById(R.id.editText);
         pass=(EditText)findViewById(R.id.editText3);
 
-        b1=(Button)findViewById(R.id.button3);
-        b1.setOnClickListener(
+        b=(Button)findViewById(R.id.button3);
+        b.setOnClickListener(
                 new View.OnClickListener() {
                     @Override
                     public void onClick(View v) {
